@@ -13,6 +13,7 @@ html, body {
   width: 100%;
   max-width: 960px;
   margin: auto;
+  background-color: #e3e3e3;
 }
 
 
@@ -61,18 +62,22 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: #e3e3e3;
+    width: 50%;
   }
 
   #column-1 {
-    background-color: red;
+    background-color:yellow;
+    width: 50%;
   }
 
   #column-2 {
-    background-color: white;
+    background-color: green;
+    width: 50%;
   }
 
   #column-3 {
-    background-color: blue;
+    background-color:pink;
+    width: 50%;
   }
 
   footer {
@@ -89,15 +94,18 @@ footer {
   }
 
   #column-1 {
-    background-color: red;
+    background-color:purple;
+    width: 33.33%;
   }
 
   #column-2 {
-    background-color: white;
+    background-color: lavender;
+    width: 33.33%;
   }
 
   #column-3 {
-    background-color: blue;
+    background-color:teal;
+    width: 33.33%;
   }
 
   footer {
